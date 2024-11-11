@@ -1,6 +1,6 @@
 class Solution(object):
     def romanToInt(self, s):
-        rom = {'I':1,'v':5,'x':10,}
+        rom = {'I':1,'V':5,'X':10,'L'}
         """
         :type s: str
         :rtype: int
