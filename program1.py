@@ -4,7 +4,7 @@ class Solution(object):
         mapping = {')':'(','{':'}',']':'['}
         for char in mapping:
             if char in mapping:
-                top_element = stack.pop() if stack elese
+                top_element = stack.pop() if stack else '#'
         """
         :type s: str
         :rtype: bool
