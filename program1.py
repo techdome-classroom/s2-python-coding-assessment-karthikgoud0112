@@ -9,6 +9,7 @@ class Solution(object):
                     return False
                 else:
                     stack.append(char)
+                    
         """
         :type s: str
         :rtype: bool
