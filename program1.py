@@ -10,11 +10,7 @@ class Solution(object):
                 else:
                     stack.append(char)
         return not stack            
-        """
-        :type s: str
-        :rtype: bool
-        """
-        pass
+
 
 
 
