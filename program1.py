@@ -5,7 +5,9 @@ class Solution(object):
         for char in mapping:
             if char in mapping:
                 top_element = stack.pop() if stack else '#'
-                if mapping[char]!= top_element
+                if mapping[char]!= top_element:
+                    return False
+                
         """
         :type s: str
         :rtype: bool
